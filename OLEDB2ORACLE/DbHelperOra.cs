@@ -15,7 +15,7 @@ namespace Maticsoft.DBUtility
     public abstract class DbHelperOra
     {
         //数据库连接字符串(web.config来配置)，可以动态更改connectionString支持多数据库.	configuration	
-        public static string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["essence"].ToString(); // "连接字符串"; 
+        public static string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["TOMDB"].ToString(); // "连接字符串"; 
 
         public DbHelperOra()
         {
